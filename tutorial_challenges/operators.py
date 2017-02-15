@@ -24,6 +24,8 @@ totalCost = mealCost + tip + taxi
 tip = the percentage of mealCost being added as tip
 taxi = the percentage of mealCost being added as tax
 
+Challenge solving by @aisabellafontes
+
 """
 def operators_manual(mealCost, tipCost, taxiCost):
     totalCost = mealCost + (mealCost*(tipCost/100)) + (mealCost*(taxiCost/100))
